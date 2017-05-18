@@ -14,6 +14,8 @@ public class EditActivity extends AppCompatActivity {
     Button btnUpdate, btnDelete;
     Note data;
 
+    int requestCode = 9;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
